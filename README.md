@@ -39,7 +39,39 @@ It features a cryptographic **Truth Ledger** that generates an immutable SHA-256
 3.  Start the development server:
     ```bash
     npm run dev
-    ```
+
+
+
+    🚀 Future Innovation Roadmap for TrueSight
+This document captures ideas and research directions discussed during the initial development phase, to be implemented in future iterations (v2.0+).
+
+🧠 Phase 1: AI Integration (The "Real Brain")
+Currently, TrueSight uses a heuristic engine (rules-based). The next step is connecting it to actual LLMs.
+
+Integration with Gemini/GPT API: Replace the 
+linguistic.js
+ rule engine with a real-time call to an LLM.
+Prompt: "Analyze this text for logical fallacies and return a JSON score."
+Benefit: Much higher accuracy and distinct explanation of why something is a fallacy.
+Fact-Checking Database: Connect to Google Fact Check Tools API to verify specific claims against known debunks.
+🔗 Phase 2: Decentralized Truth Ledger (Web3)
+Currently, 
+ledger.js
+ uses local storage and simple SHA-256.
+
+Blockchain Integration: Store the SHA-256 hashes on a low-cost blockchain (Polygon or Solana) or a decentralized storage (IPFS/Arweave).
+Why?: This makes the "Immutable Record" truly public and verifiable by anyone in the world, not just the local user. Perfect for a "Global Truth Registry."
+🕵️ Phase 3: Browser Extension
+Chrome/Edge Extension: Instead of copy-pasting text into the website, the user highlights text on any website (Twitter, CNN, etc.) and right-clicks "Verify with TrueSight."
+Overlay UI: A small popup shows the credibility score directly over the social media post.
+📹 Phase 4: Real Media Forensics
+Currently, MediaScanner.js is a simulation.
+
+Audio Analysis: Python backend (FastAPI) using libraries like librosa to detect deepfake audio signatures.
+Video Frame Analysis: Extract keyframes and check for face-swapping artifacts using OpenCV.
+🧪 Phase 5: The "Bias Lens"
+Political Spectrum Analysis: Train a model to detect left/right political leaning in the text, not just "credibility."
+Tone Rewriter: A generic "De-sensationalizer" button that rewrites the clickbait headline into a neutral fact.
 
 ## 👥 Contributors
 *   **Kailash Singh** - Lead Developer
