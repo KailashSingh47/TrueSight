@@ -54,6 +54,8 @@ linguistic.js
 Prompt: "Analyze this text for logical fallacies and return a JSON score."
 Benefit: Much higher accuracy and distinct explanation of why something is a fallacy.
 Fact-Checking Database: Connect to Google Fact Check Tools API to verify specific claims against known debunks.
+
+
 🔗 Phase 2: Decentralized Truth Ledger (Web3)
 Currently, 
 ledger.js
@@ -61,9 +63,13 @@ ledger.js
 
 Blockchain Integration: Store the SHA-256 hashes on a low-cost blockchain (Polygon or Solana) or a decentralized storage (IPFS/Arweave).
 Why?: This makes the "Immutable Record" truly public and verifiable by anyone in the world, not just the local user. Perfect for a "Global Truth Registry."
+
+
 🕵️ Phase 3: Browser Extension
 Chrome/Edge Extension: Instead of copy-pasting text into the website, the user highlights text on any website (Twitter, CNN, etc.) and right-clicks "Verify with TrueSight."
 Overlay UI: A small popup shows the credibility score directly over the social media post.
+
+
 📹 Phase 4: Real Media Forensics
 Currently, MediaScanner.js is a simulation.
 
