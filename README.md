@@ -43,7 +43,6 @@ It features a cryptographic **Truth Ledger** that generates an immutable SHA-256
 
 ## 👥 Contributors
 *   **Kailash Singh** - Lead Developer
-*   [Other Team Members...]
 
 ---
 *Built for the Future of Information Integrity.*
