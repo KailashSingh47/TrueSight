@@ -30,7 +30,7 @@ It features a cryptographic **Truth Ledger** that generates an immutable SHA-256
 ## 🏃‍♂️ How to Run Locally
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/KailashSingh47/TrueSight-AI.git
+    git clone https://github.com/KailashSingh47/TrueSight.git
     ```
 2.  Install dependencies:
     ```bash
@@ -39,8 +39,10 @@ It features a cryptographic **Truth Ledger** that generates an immutable SHA-256
 3.  Start the development server:
     ```bash
     npm run dev
+_______OR______
 
-
+google -->  truesighty.vercel.app
+direct link-->  https://truesighty.vercel.app/
 
     🚀 Future Innovation Roadmap for TrueSight
 This document captures ideas and research directions discussed during the initial development phase, to be implemented in future iterations (v2.0+).
@@ -75,6 +77,8 @@ Currently, MediaScanner.js is a simulation.
 
 Audio Analysis: Python backend (FastAPI) using libraries like librosa to detect deepfake audio signatures.
 Video Frame Analysis: Extract keyframes and check for face-swapping artifacts using OpenCV.
+
+
 🧪 Phase 5: The "Bias Lens"
 Political Spectrum Analysis: Train a model to detect left/right political leaning in the text, not just "credibility."
 Tone Rewriter: A generic "De-sensationalizer" button that rewrites the clickbait headline into a neutral fact.
