@@ -41,8 +41,10 @@ It features a cryptographic **Truth Ledger** that generates an immutable SHA-256
     npm run dev
 _______OR______
 
-google -->  truesighty.vercel.app
-direct link-->  https://truesighty.vercel.app/
+google -->  truesighty.vercel.app        
+
+
+Direct link-->  https://truesighty.vercel.app/
 
     🚀 Future Innovation Roadmap for TrueSight
 This document captures ideas and research directions discussed during the initial development phase, to be implemented in future iterations (v2.0+).
